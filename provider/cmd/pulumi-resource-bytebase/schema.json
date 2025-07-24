@@ -26,7 +26,7 @@
             "rootNamespace": "pulumi-bytebase"
         },
         "go": {
-            "importBasePath": "github.com/wawilow/pulumi-bytebase/sdk/go/bytebase",
+            "importBasePath": "github.com/wawilow/pulumi-bytebase/sdk/v3/go/bytebase",
             "generateResourceContainerTypes": true,
             "generateExtraInputTypes": true
         },
