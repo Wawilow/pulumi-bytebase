@@ -18,23 +18,10 @@
         "moduleFormat": "(.*)(?:/[^/]*)"
     },
     "language": {
-        "csharp": {
-            "packageReferences": {
-                "Pulumi": "3.*"
-            },
-            "compatibility": "tfbridge20",
-            "rootNamespace": "pulumi-bytebase"
-        },
         "go": {
-            "importBasePath": "github.com/wawilow/pulumi-bytebase/sdk/v3/go/bytebase",
+            "importBasePath": "github.com/wawilow/pulumi-bytebase/sdk/go/bytebase",
             "generateResourceContainerTypes": true,
             "generateExtraInputTypes": true
-        },
-        "java": {
-            "basePackage": "com.wawilow",
-            "buildFiles": "",
-            "gradleNexusPublishPluginVersion": "",
-            "gradleTest": ""
         },
         "nodejs": {
             "packageName": "@wawilow/pulumi-bytebase",

@@ -202,22 +202,21 @@ func Provider() tfbridge.ProviderInfo {
 		Golang: &tfbridge.GolangInfo{
 			ImportBasePath: filepath.Join(
 				fmt.Sprintf("github.com/wawilow/pulumi-%[1]s/sdk/", "bytebase"),
-				tfbridge.GetModuleMajorVersion(version.Version),
 				"go",
 				"bytebase",
 			),
 			GenerateResourceContainerTypes: true,
 		},
-		CSharp: &tfbridge.CSharpInfo{
-			RootNamespace: "pulumi-bytebase",
-
-			PackageReferences: map[string]string{
-				"Pulumi": "3.*",
-			},
-		},
-		Java: &tfbridge.JavaInfo{
-			BasePackage: "com.wawilow",
-		},
+		//CSharp: &tfbridge.CSharpInfo{
+		//	RootNamespace: "pulumi-bytebase",
+		//
+		//	PackageReferences: map[string]string{
+		//		"Pulumi": "3.*",
+		//	},
+		//},
+		//Java: &tfbridge.JavaInfo{
+		//	BasePackage: "com.wawilow",
+		//},
 	}
 
 	prov.MustComputeTokens(moduleComputeStrategy())
