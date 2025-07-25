@@ -10,15 +10,15 @@ The Pulumi Bytebase provider is available as a package in all Pulumi languages:
 
 * JavaScript/TypeScript: [`@wawilow/pulumi-bytebase`](https://www.npmjs.com/package/@wawilow/pulumi-bytebase)
 * Python: [`pulumi-bytebase`](https://pypi.org/project/pulumi-bytebase/)
-* Go: [`github.com/wawilow/pulumi-bytebase/sdk/go/bytebase`](https://pkg.go.dev/github.com/wawilow/pulumi-bytebase/sdk/go/bytebase)
-* .NET: [`pulumi-bytebase.Bytebase`](https://www.nuget.org/packages/pulumi-bytebase.Bytebase)
+* Go: [`github.com/wawilow/pulumi-bytebase/sdk/go/bytebase`](https://github.com/pulumi/pulumi-aws/tree/master/sdk/go/bytebase)
+
+[//]: # (* .NET: [`pulumi-bytebase.Bytebase`]&#40;https://www.nuget.org/packages/pulumi-bytebase.Bytebase&#41;)
 
 
 ## Configuration
 
-> Note:  
-> Replace the following **sample content**, with the configuration options
-> of the wrapped Terraform provider and remove this note.
+> Note:
+> hiii, I'll finish all docs later
 
 ### Provider Binary
 
